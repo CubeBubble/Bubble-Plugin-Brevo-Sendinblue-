@@ -1,0 +1,52 @@
+{
+    "category": "plugins",
+    "display": "Brevo - Send email with template",
+    "fields": {
+        "AAH": {
+            "caption": "To",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Reply To Email",
+            "editor": "DynamicValue",
+            "name": "replyTo",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Template ID",
+            "editor": "DynamicValue",
+            "name": "templateId",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "Params",
+            "editor": "key_value_list",
+            "name": "params",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Bcc",
+            "editor": "DynamicValue",
+            "name": "bcc",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "Cc",
+            "editor": "DynamicValue",
+            "name": "cc",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

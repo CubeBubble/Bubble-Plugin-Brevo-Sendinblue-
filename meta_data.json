@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "email"
+    },
+    "description": "Brevo plugin",
+    "image": "//meta-q.cdn.bubble.io/f1700478645515x663575287850922000/Brevo-Logo.png",
+    "license": "open_source",
+    "name": "Brevo (Sendinblue)",
+    "sa_node_version": 18
+}

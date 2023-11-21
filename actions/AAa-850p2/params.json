@@ -1,0 +1,76 @@
+{
+    "category": "plugins",
+    "display": "Brevo - Send email",
+    "fields": {
+        "AAW": {
+            "caption": "To",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "Reply To Email",
+            "editor": "DynamicValue",
+            "name": "replyTo",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "Subject",
+            "editor": "DynamicValue",
+            "name": "subject",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Html Content",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "htmlContent",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "Text Content",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "textContent",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "Sender Email",
+            "editor": "DynamicValue",
+            "name": "senderEmail",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "Sender Name",
+            "editor": "DynamicValue",
+            "name": "senderName",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "Bcc",
+            "editor": "DynamicValue",
+            "name": "bcc",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "Cc",
+            "editor": "DynamicValue",
+            "name": "cc",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
